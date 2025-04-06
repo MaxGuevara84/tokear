@@ -9,12 +9,7 @@ body {
 
 .fondo-bienvenidos {
   background: rgb(2, 0, 36);
-  background: linear-gradient(
-    90deg,
-    rgba(2, 0, 36, 1) 0%,
-    rgba(21, 21, 102, 1) 35%,
-    rgba(0, 212, 255, 1) 100%
-  );
+  background: black
 }
 
 .bn {
@@ -27,8 +22,17 @@ body {
 }
 
 .button {
-  color: red;
-  border-radius: 5px;
-  background-color: blue;
+  color: #000000;
+  border-radius: 16px;
+  background-color: #FA9301;
   padding: 8px;
+}
+
+.login-container {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 2rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column; /* ← esto es clave */
+  width: 300px;
 }

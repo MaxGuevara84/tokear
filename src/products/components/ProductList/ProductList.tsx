@@ -21,6 +21,8 @@ export const ProductList = ({ list }: CertificatesProps) => {
   const [imagen, setImagen] = useState("");
 
   const handleClickOpen = (item: ICertificate) => {
+    console.log('ACA ESTA EL CERTIFICADO => ', item);
+    
     setImagen(item.imageUrl);
 
     setOpen(true);
