@@ -23,6 +23,7 @@ export const router = createBrowserRouter([
         path: "inicio",
         element: <Inicio />,
       },
+      //cambiar routes
       {
         path: "certificates",
         element: <CertificatesListPage />,
